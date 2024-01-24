@@ -1,0 +1,19 @@
+/* minden beviteli mezőre érvényes */
+input {
+    margin: 5px;
+}
+
+/*  */
+input[type=submit] {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+/* az aktuálisan íródó mezőre érvényes */
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=range] {
+    background-color: lightblue;
+}
