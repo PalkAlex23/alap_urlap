@@ -17,3 +17,7 @@ input[type=text]:focus {
 input[type=range] {
     background-color: lightblue;
 }
+
+div {
+    text-align: center;
+}
